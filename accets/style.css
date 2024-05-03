@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#slider {
+  position: relative;
+  /* padding-top: 49.5%; */
+  padding-top: 49.5%;
+  background: url(../accets/img/poster-2.jpg) top center / cover no-repeat;
+  /* width: 100%; */
+  /* object-fit: cover; */
+  /* height: 1080px; */
+  height: 100vh;
+}
+
+.mobileClub {
+  display: none;
+}
+
+.img {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+
+#slider .text-content {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  width: 100%;
+  color: rgb(2, 57, 224);
+}
+
+#slider .text-heading {
+  width: 100%;
+  position: absolute;
+  font-size: 48px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(2, 57, 224);
+  top: 95px;
+  text-align: center;
+  /* color: rgb(255, 51, 51); */
+  color: yellow;
+  text-transform: uppercase;
+  margin-top: -50px;
+  padding: 0 200px;
+  font-weight: 700;
+}
+
+#slider .text-heading p {
+  font-size: 34px;
+  text-transform: none;
+  margin-top: 20px;
+  color: yellow;
+}
+
+.text-description {
+  position: absolute;
+  top: 35%;
+  font-size: 34px;
+  text-align: start;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.text-description > h3 {
+  text-align: center;
+}
+
+.text-description h3 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.text-description-club {
+  /* display: flex; */
+  /* justify-content: start; */
+  /* width: 500px; */
+}
+
+.text-description-club-name {
+  /* width: 50%; */
+  /* display: flex; */
+  /* display: inline-block; */
+  padding: 12px 0;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-description-club-detail {
+  display: flex;
+  justify-content: center;
+  /* width: 300px; */
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.text-description-club-detail h4 {
+  /* width: 100px; */
+  display: inline-block;
+  padding: 0 20px;
+  flex: 1;
+  width: 60px;
+  text-align: center;
+}
+
+.text-description h5 {
+  padding: 5px 0;
+}
+
+.text-description.a {
+  left: 8%;
+}
+
+.text-description.b {
+  right: 8%;
+}
+
+.taitro {
+  position: absolute;
+  font-size: 26px;
+  bottom: 18px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 255, 200);
+  text-shadow: 2px 2px 2px rgb(2, 57, 224);
+}
+
+.schedule {
+  position: absolute;
+  left: 60%;
+  transform: translateX(-60%);
+  bottom: 10%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.top_goal {
+  position: absolute;
+  left: 40%;
+  transform: translateX(-40%);
+  bottom: 10%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.top_goal-detail {
+  position: fixed;
+  background-color: #fff;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  left: 20%;
+  right: 20%;
+  /* bottom: 5%; */
+  z-index: 2;
+  border-radius: 10px;
+  padding: 50px 20px;
+  background-color: rgb(218, 255, 243);
+  transform: translateY(150%);
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.top_goal-detail i {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 7px 10px;
+}
+
+.top_goal-detail i:hover {
+  background-color: #eee;
+}
+
+.top_goal-detail .text {
+  text-align: center;
+  /* padding: 20px 0; */
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.top_goal-detail-list {
+  text-align: center;
+  padding: 0 50px;
+  margin-top: 20px;
+}
+
+.top_goal-detail-list .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_goal-detail-list .heading div {
+  flex: 1;
+  font-weight: bold;
+}
+
+.top_goal-detail-item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #9affcb;
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 5px 0;
+  height: 50px;
+}
+
+.top_goal-detail-item div {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_goal-detail-item .club,
+.top_goal-detail-item .goal {
+  background-color: rgb(72, 72, 255);
+  color: #fff;
+  /* padding: 10px 0px; */
+}
+
+.top_goal-detail-item .name {
+  padding: 5px 25px;
+  background-color: #79ffba;
+}
+
+.schedule h4,
+.top_goal h4 {
+  font-size: 22px;
+  background-color: aquamarine;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 2px 15px 0px #555;
+  transition: all 0.2s;
+}
+
+.schedule h4:hover,
+.top_goal h4:hover {
+  box-shadow: 0px 0px 15px 0px #ccc;
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: none;
+}
+
+.schedule-detail {
+  position: fixed;
+  top: 6%;
+  left: 12%;
+  right: 12%;
+  bottom: 6%;
+  height: 88%;
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  /* display: none; */
+  transform: translateY(150%);
+  opacity: 1;
+  transition: all 0.5s;
+  /* top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 100%; */
+}
+
+.icon {
+  text-align: end;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-close {
+  font-size: 25px;
+  background-color: transparent;
+  padding: 6px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.icon-close-hidden {
+  color: transparent;
+  background-color: transparent;
+  padding: 6px 10px;
+  cursor: default;
+  margin-right: 20px;
+}
+
+.icon-close:hover {
+  background-color: #ddd;
+}
+
+.schedule-detail-body {
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.schedule-detail-text {
+  font-size: 36px;
+}
+
+.group {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.knock {
+  display: inline-block;
+}
+
+.knock .day {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.league {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+}
+
+.knock .league .match {
+  padding: 12px 35px;
+}
+
+.schedule-detail-body .knock .match span {
+  font-weight: 400;
+}
+
+.round {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: yellow;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 8px 30px;
+}
+
+.round.first {
+  margin-top: 30px;
+}
+
+.match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  min-width: 450px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 30px;
+  /* width: 500px; */
+  width: 100%;
+}
+
+.match.mot,
+.match.nam,
+.match.chin,
+.match.hai,
+.match.sau,
+.match.muoi {
+  margin-top: 50px;
+}
+
+.time {
+  margin: 0 0px;
+}
+
+.time span {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.club {
+  padding: 0 10px;
+}
+
+.arena {
+  margin-left: 20px;
+}
+
+.mb_50 {
+  margin-bottom: 50px;
+}
+
+.ml_10 {
+  margin-left: 10px;
+}
+
+.ml_20 {
+  margin-left: 20px;
+}
+
+.ml_30 {
+  margin-left: 30px;
+}
+
+.mr_10 {
+  margin-right: 10px;
+}
+
+.mt_40 {
+  margin-top: 40px;
+}
+
+.mt_70 {
+  margin-top: 70px;
+}
+
+.mt_30 {
+  margin-top: 30px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.vong {
+  position: absolute;
+  left: 86%;
+  font-size: 18px;
+  width: 200px;
+}
+
+.vong.mot {
+  top: 20px;
+}
+
+.bang {
+  margin-bottom: -20px;
+}
+
+.traogiai img {
+  width: 40%;
+}
