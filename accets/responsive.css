@@ -1,10 +1,3 @@
-/* 
-@media (min-width: 1024px) and (max-width: 1239px) {
-    .schedule-detail {
-        height: 500px !important;
-    }
-} */
-
 @media (min-width: 1750px) {
   #slider .text-heading {
     font-size: 60px;
@@ -16,11 +9,25 @@
   }
 
   .text-description {
-    font-size: 44px;
+    font-size: 32px;
+    top: 33%;
+  }
+
+  .text-description.a {
+    left: 4%;
+  }
+
+  .text-description.b {
+    right: 4%;
   }
 
   .text-description-club {
     width: 650px;
+    height: 80px;
+  }
+
+  .match {
+    font-size: 25px;
   }
 
   .schedule h4,
@@ -44,21 +51,94 @@
     font-size: 22px;
   }
 
-  .vong.mot {
-    top: 40px;
+  .icon-close {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 1749px) and (min-width: 1600) {
+  #slider .text-heading {
+    font-size: 50px;
+  }
+
+  .img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .text-description {
+    font-size: 32px;
+    top: 33%;
+  }
+
+  .text-description.a {
+    left: 4%;
+  }
+
+  .text-description.b {
+    right: 4%;
+  }
+
+  .text-description-club {
+    width: 600px;
+    height: 90px;
+  }
+
+  .match {
+    font-size: 25px;
+  }
+
+  .schedule h4,
+  .top_goal h4 {
+    font-size: 32px;
+  }
+
+  .taitro {
+    font-size: 30px;
+  }
+
+  .league {
+    font-size: 27px;
+  }
+
+  .round {
+    font-size: 28px;
+  }
+
+  .vong {
+    font-size: 22px;
   }
 
   .icon-close {
     font-size: 34px;
   }
+}
 
-  .match.mot,
-  .match.nam,
-  .match.chin,
-  .match.hai,
-  .match.sau,
-  .match.muoi {
-    margin-top: 60px;
+@media (max-width: 1400px) {
+  #slider .text-heading {
+    font-size: 38px;
+  }
+
+  #slider .text-heading p {
+    font-size: 30px;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-description.a {
+    left: 4%;
+  }
+
+  .text-description.b {
+    right: 4%;
+  }
+
+  .text-description-club {
+    width: 500px;
+    height: 55px;
   }
 }
 
@@ -68,7 +148,8 @@
   }
 
   .text-description-club {
-    width: 400px;
+    width: 500px;
+    height: 50px;
   }
 
   .text-description {
@@ -76,11 +157,11 @@
   }
 
   .text-description.a {
-    left: 2%;
+    left: 4%;
   }
 
   .text-description.b {
-    right: 2%;
+    right: 4%;
   }
 
   .img {
@@ -99,6 +180,7 @@
 
   .league {
     font-size: 15px;
+    margin: 0 90px;
   }
 
   .round {
@@ -107,83 +189,33 @@
 
   .vong {
     font-size: 16px;
-    left: 81%;
-  }
-
-  .match.mot,
-  .match.nam,
-  .match.chin,
-  .match.hai,
-  .match.sau,
-  .match.muoi {
-    margin-top: 50px;
   }
 
   .schedule-detail-body {
     padding: 0 5px;
   }
 
-  .league {
-    padding: 0 5px;
-  }
-}
-
-@media (min-width: 728px) and (max-width: 1025px) {
-  .schedule,
-  .top_goal {
-    bottom: 20% !important;
-  }
-
-  .schedule h4,
-  .top_goal h4 {
-    font-size: 22px !important;
-  }
-}
-
-@media only screen and (min-width: 63.9375em) and (max-width: 1250px) {
-  .schedule-detail {
-    top: 6%;
-    left: 4%;
-    right: 4%;
-    bottom: 6%;
-    height: 88%;
-  }
-}
-
-@media (min-width: 55em) and (max-width: 63.9375em) {
-  .img {
-    width: 170px;
-    height: 170px;
-    top: 50% !important;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .text-description {
-    top: 50%;
-    transform: translateY(-50%);
-  }
 }
 
 /* Mobile and Tablet */
-@media only screen and (max-width: 63.9375em) {
+@media (max-width: 1024px) {
   #slider .text-heading {
-    font-size: 36px;
+    font-size: 42px;
     padding: 0 100px;
   }
 
   #slider .text-heading p {
-    font-size: 20px;
+    font-size: 32px;
   }
 
-  .text-description-club-name {
-    font-size: 28px;
+  .text-description {
+    font-size: 30px;
   }
 
   .img {
-    width: 130px;
-    height: 130px;
-    top: 38%;
+    width: 330px;
+    height: 330px;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -198,20 +230,18 @@
     margin-top: 10px;
   }
 
-  .text-description {
-    font-size: 24px;
-    margin-top: 50px;
-  }
-
   .text-description-club {
-    width: 350px;
+    width: 460px;
+    height: 80px;
   }
 
   .text-description.a {
+    top: 20%;
     left: 2%;
   }
 
   .text-description.b {
+    top: 20%;
     right: 2%;
   }
 
@@ -239,15 +269,6 @@
     font-size: 34px;
   }
 
-  .group {
-    display: block;
-  }
-
-  .league {
-    display: inline-block;
-    width: 88%;
-  }
-
   .match {
     display: flex;
     justify-content: space-between;
@@ -255,42 +276,14 @@
     padding: 12px 12px !important;
   }
 
-  .knock {
-    width: 100%;
-  }
-
-  .knock .league .match {
-    width: 100% !important;
-  }
-
   .schedule-detail-body {
-    display: none;
-  }
-
-  .schedule-detail-body-mobile {
     height: 100%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     padding-bottom: 50px;
   }
 
   .round {
     font-size: 24px;
-  }
-
-  .vong {
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20px;
-  }
-
-  .vong.mot {
-    top: 0px;
-  }
-
-  .bang-dau {
-    position: absolute;
-    font-size: 20px;
-    right: 0px;
   }
 
   .schedule-detail {
@@ -304,21 +297,78 @@
   #slider {
     height: 100vh;
   }
+
+  .time,
+  .number {
+    width: 10%;
+  }
+
+  .club {
+    width: 40%;
+  }
+}
+
+@media (max-width: 912px) {
+  .img {
+    width: 180px;
+    height: 180px;
+    top: 76%;
+  }
+
+  .text-description {
+    font-size: 28px;
+  }
+
+  .text-description-club {
+    width: 380px;
+    height: 90px;
+  }
+
+  .text-description.a {
+    top: 25%;
+  }
+
+  .text-description.b {
+    top: 25%;
+  }
+
+  .league {
+    margin: 0 50px;
+  }
+
+  .match {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 777px) {
+  .img {
+    display: none;
+  }
+
+  .text-description {
+    font-size: 24px;
+  }
+
+  .text-description-club {
+    width: 340px;
+    height: 90px;
+  }
+
+  .text-description.a {
+    top: 30%;
+  }
+
+  .text-description.b {
+    top: 30%;
+  }
 }
 
 /* Mobile: width < 740px */
-@media only screen and (max-width: 740px) {
+@media (max-width: 740px) {
   #slider .text-heading {
     font-size: 25px;
     padding: 0 20px;
-  }
-
-  .mobileClub {
-    display: block;
-  }
-
-  .pcClub {
-    display: none;
   }
 
   .top_goal-detail {
@@ -358,7 +408,8 @@
   }
 
   .text-description-club {
-    width: 300px;
+    width: 500px;
+    height: 60px;
   }
 
   .text-description-club-detail h4 {
@@ -375,13 +426,13 @@
     margin-left: 5px;
     left: 50%;
     transform: translateX(-50%);
-    top: 22%;
+    top: 20%;
   }
 
   .text-description.b {
     right: 50%;
     transform: translateX(50%);
-    top: 47%;
+    top: 52%;
     margin-right: -5px;
   }
 
@@ -429,10 +480,6 @@
     height: 96%;
   }
 
-  .league {
-    width: 96%;
-  }
-
   .match {
     display: flex;
     font-size: 13px;
@@ -440,7 +487,7 @@
   }
 
   .time {
-    margin-left: 6px !important;
+    /* margin-left: 6px !important; */
     margin-right: 0 !important;
     padding: 0px;
   }
@@ -458,60 +505,14 @@
     margin-right: 5px;
   }
 
-  .knock {
-    width: 100%;
-  }
-
-  .knock .club {
-    width: 90px;
-  }
-
-  .knock .time {
-    margin-left: 10px !important;
-  }
-
-  .knock .league .match {
-    width: 100% !important;
-  }
-
-  .knock .day {
-    font-size: 14px;
-  }
-
-  .schedule-detail-body {
-    display: none;
-  }
-
-  .schedule-detail-body-mobile {
-    height: 100%;
-    overflow-y: scroll;
-    padding-bottom: 50px;
-  }
-
   .round {
     font-size: 24px;
-  }
-
-  .vong {
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 14px;
   }
 
   .bang-dau {
     font-size: 14px !important;
     right: 5px !important;
   }
-
-  .vong.mot {
-    top: 0px;
-  }
-
-  /* .bang-dau {
-        position: absolute;
-        font-size: 20px;
-        right: 26px;
-    } */
 
   .match.mt_40 {
     margin-top: 25px;
@@ -534,27 +535,165 @@
   }
 }
 
-@media only screen and (max-width: 740px) and (min-width: 500px) {
+@media (max-width: 605px) {
+  .text-description-club {
+    width: 500px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 440px) {
   #slider .text-heading {
-    font-size: 32px;
-    padding: 0 20px;
+    top: 80px;
+    font-size: 22px;
   }
 
-  .text-description {
+  #slider .text-heading p {
+    margin-top: 10px;
     font-size: 20px;
-  }
-
-  .match {
-    font-size: 16px;
   }
 
   .text-description-club {
     width: 400px;
+    height: 50px;
+  }
+
+  .text-description.a {
+    top: 18%;
+  }
+  
+  .text-description.b {
+    top: 52%;
+  }
+
+  .text-description-club-name {
+    font-size: 16px;
+  }
+
+  .text-description h3 {
+    margin-bottom: 10px;
+  }
+
+  .league {
+    margin: 0 5px;
+  }
+
+  .match {
+    min-width: 350px;
+    height: 50px;
+    font-size: 14px;
   }
 
   .schedule,
   .top_goal {
-    bottom: 6.5% !important;
+    bottom: 7% !important;
+  }
+
+  .time,
+  .number {
+    margin: 0px;
+    width: 10%;
+  }
+
+  .club {
+    width: 45%;
+  }
+}
+
+@media (max-width: 380px) {
+  #slider .text-heading {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  #slider .text-heading p {
+    font-size: 16px;
+  }
+
+  .text-description {
+    font-size: 16px;
+  }
+
+  .club {
+    width: 70px;
+  }
+
+  .text-description.a {
+    top: 22%;
+  }
+  
+  .text-description.b {
+    top: 54%;
+  }
+
+  .text-description-club {
+    width: 350px;
+    height: 35px;
+  }
+
+  .text-description-club-name {
+    font-size: 14px;
+  }
+
+  .schedule {
+    left: 85%;
+    transform: translateX(-85%);
+  }
+
+  .top_goal {
+    left: 15%;
+    transform: translateX(-15%);
+  }
+
+  .schedule h4,
+  .top_goal h4 {
+    font-size: 14px;
+    padding: 10px 5px;
+  }
+
+  .match {
+    min-width: 300px;
+    font-size: 13px;
+  }
+
+  .time,
+  .number {
+    margin: 0px;
+    width: 10%;
+  }
+
+  .club {
+    width: 45%;
+  }
+}
+
+@media (max-width: 330px) {
+  #slider .text-heading {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .text-description {
+    font-size: 14px;
+  }
+
+  .schedule {
+    transform: translateX(-85%);
+    left: 95%;
+  }
+
+  .text-description-club-name {
+    font-size: 14px;
+  }
+
+  .top_goal {
+    left: 15%;
+    transform: translateX(-15%);
+  }
+
+  .text-description-club {
+    width: 300px;
+    height: 35px;
   }
 
   .schedule h4,
@@ -562,197 +701,47 @@
     font-size: 13px;
   }
 
-  .schedule {
-    left: 90%;
-    transform: translateX(-90%);
-  }
-
-  .top_goal {
-    left: 10%;
-    transform: translateX(-10%);
-  }
-
-  .schedule h4,
-  .top_goal h4 {
-    font-size: 14px !important;
-  }
-}
-
-@media only screen and (max-width: 440px) {
-  .text-description-club-name {
-    font-size: 20px;
-  }
-  .match {
-    min-width: 350px;
-  }
-  .club span {
-    display: block;
-  }
-
-  .time span {
-    display: block;
-  }
-
-  .schedule,
-  .top_goal {
-    bottom: 10% !important;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  #slider .text-heading {
-    font-size: 24px;
-    padding: 0 20px;
-  }
-
-  .text-description {
-    font-size: 16px;
-  }
-
-  .club {
-    width: 70px;
-  }
-
-  .schedule {
-    left: 85%;
-    transform: translateX(-85%);
-  }
-
-  .top_goal {
-    left: 15%;
-    transform: translateX(-15%);
-  }
-
-  .schedule h4,
-  .top_goal h4 {
-    font-size: 14px;
-  }
-
   .match {
     min-width: 300px;
-  }
-}
-
-@media only screen and (max-width: 330px) {
-  #slider .text-heading {
-    font-size: 20px;
-    padding: 0 20px;
+    font-size: 12px;
   }
 
-  .text-description {
-    font-size: 14px;
+  .time,
+  .number {
+    margin: 0px;
+    width: 10%;
   }
 
   .club {
-    width: 70px;
-  }
-
-  .schedule {
-    left: 85%;
-    transform: translateX(-85%);
-  }
-
-  .top_goal {
-    left: 15%;
-    transform: translateX(-15%);
+    width: 45%;
   }
 
   .schedule h4,
   .top_goal h4 {
     font-size: 12px;
+    padding: 5px 2px;
+    width: 100px;
   }
 }
 
-/* Tablet: width >= 740px and width < 1024px */
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-  /* #slider .text-heading {
-        font-size: 42px;
-        padding: 0 100px;
-    }
+@media (max-width: 280px) {
+  .text-description-club {
+    width: 270px;
+    height: 35px;
+  }
 
-    .img {
-        width: 250px;
-        height: 250px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+  .match {
+    min-width: 250px;
+    font-size: 11px;
+  }
 
-    .text-description {
-        font-size: 42px;
-    }
+  .time,
+  .number {
+    margin: 0px;
+    width: 10%;
+  }
 
-    .schedule {
-        bottom: 30%;
-    }
-
-    .schedule h4 {
-        font-size: 30px;
-    }
-
-    .taitro {
-        font-size: 34px;
-    } 
-
-    .group {
-        display: block;
-    }
-
-    .league {
-        display: inline-block;
-        width: 88%;
-    }
-
-    .match {
-        display: flex;
-        justify-content: center;
-        font-size: 19px;
-        padding: 10px 12px !important;
-    }
-
-    .knock {
-        width: 100%;
-    }
-
-    .knock .league .match {
-        width: 100% !important;
-    }
-
-    .schedule-detail-body {
-        display: none;
-    }
-
-    .schedule-detail-body-mobile {
-        height: 100%;
-        overflow-y: scroll;
-        padding-bottom: 50px;
-    }
-
-    .round {
-        font-size: 24px;
-    }
-
-    .vong {
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 20px;
-    }
-
-    .vong.mot {
-        top: 0px;
-    }
-
-    .bang-dau {
-        position: absolute;
-        font-size: 20px;
-        right: 26px;
-    }
-
-    .schedule-detail {
-        top: 4%;
-        left: 10%;
-        right: 10%;
-        bottom: 4%;
-        height: 90%;
-    } */
+  .club {
+    width: 45%;
+  }
 }

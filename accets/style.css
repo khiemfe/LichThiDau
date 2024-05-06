@@ -9,9 +9,8 @@ html {
 
 #slider {
   position: relative;
-  /* padding-top: 49.5%; */
   padding-top: 49.5%;
-  background: url(../accets/img/poster-2.jpg) top center / cover no-repeat;
+  background: url(../accets/img/poster.jpg) top center / cover no-repeat;
   /* width: 100%; */
   /* object-fit: cover; */
   /* height: 1080px; */
@@ -43,7 +42,7 @@ html {
 #slider .text-heading {
   width: 100%;
   position: absolute;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 600;
   text-shadow: 2px 2px 2px rgb(2, 57, 224);
   top: 95px;
@@ -57,7 +56,7 @@ html {
 }
 
 #slider .text-heading p {
-  font-size: 34px;
+  font-size: 32px;
   text-transform: none;
   margin-top: 20px;
   color: yellow;
@@ -65,11 +64,23 @@ html {
 
 .text-description {
   position: absolute;
-  top: 35%;
-  font-size: 34px;
+  top: 30%;
+  font-size: 24px;
   text-align: start;
   color: #ffffff;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.text-description h5 {
+  padding: 5px 0;
+}
+
+.text-description.a {
+  left: 8%;
+}
+
+.text-description.b {
+  right: 8%;
 }
 
 .text-description > h3 {
@@ -82,18 +93,19 @@ html {
 }
 
 .text-description-club {
-  /* display: flex; */
-  /* justify-content: start; */
-  /* width: 500px; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 500px;
+  height: 65px;
 }
 
 .text-description-club-name {
-  /* width: 50%; */
-  /* display: flex; */
-  /* display: inline-block; */
+  width: 50%;
+  display: flex;
+  display: inline-block;
   padding: 12px 0;
-  font-size: 34px;
-  text-align: center;
+  align-items: center;
   text-transform: uppercase;
 }
 
@@ -111,24 +123,11 @@ html {
 }
 
 .text-description-club-detail h4 {
-  /* width: 100px; */
   display: inline-block;
   padding: 0 20px;
   flex: 1;
   width: 60px;
   text-align: center;
-}
-
-.text-description h5 {
-  padding: 5px 0;
-}
-
-.text-description.a {
-  left: 8%;
-}
-
-.text-description.b {
-  right: 8%;
 }
 
 .taitro {
@@ -171,7 +170,7 @@ html {
   background-color: rgb(218, 255, 243);
   transform: translateY(150%);
   opacity: 1;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 
 .top_goal-detail i {
@@ -284,15 +283,9 @@ html {
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
-  /* display: none; */
   transform: translateY(150%);
   opacity: 1;
-  transition: all 0.5s;
-  /* top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    height: 100%; */
+  transition: all 0.4s;
 }
 
 .icon {
@@ -336,49 +329,19 @@ html {
   font-size: 36px;
 }
 
-.group {
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.knock {
-  display: inline-block;
-}
-
-.knock .day {
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
 .league {
   text-align: center;
   font-size: 18px;
-  position: relative;
-}
-
-.knock .league .match {
-  padding: 12px 35px;
-}
-
-.schedule-detail-body .knock .match span {
-  font-weight: 400;
+  margin: 0 120px;
 }
 
 .round {
   font-size: 22px;
   margin-top: 40px;
-  margin-bottom: 10px;
   background-color: yellow;
   display: inline-block;
   border-radius: 30px;
   padding: 8px 30px;
-}
-
-.round.first {
-  margin-top: 30px;
 }
 
 .match {
@@ -387,26 +350,26 @@ html {
   justify-content: space-between;
   background-color: aquamarine;
   min-width: 450px;
-  width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 30px;
   width: 100%;
-  padding: 10px 30px;
-  /* width: 500px; */
-  width: 100%;
+  padding: 15px 30px;
+  font-size: 20px;
 }
 
-.match.mot,
-.match.nam,
-.match.chin,
-.match.hai,
-.match.sau,
-.match.muoi {
-  margin-top: 50px;
+.time,
+.number {
+  margin: 0px;
+  width: 5%;
 }
 
-.time {
-  margin: 0 0px;
+.number span {
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.day {
+  margin-top: 10px;
 }
 
 .time span {
@@ -416,6 +379,7 @@ html {
 
 .club {
   padding: 0 10px;
+  width: 45%;
 }
 
 .arena {
@@ -442,6 +406,10 @@ html {
   margin-right: 10px;
 }
 
+.mt_10 {
+  margin-top: 10px;
+}
+
 .mt_40 {
   margin-top: 40px;
 }
@@ -463,14 +431,8 @@ html {
 }
 
 .vong {
-  position: absolute;
-  left: 86%;
   font-size: 18px;
-  width: 200px;
-}
-
-.vong.mot {
-  top: 20px;
+  margin-top: 20px;
 }
 
 .bang {
