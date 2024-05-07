@@ -18,7 +18,7 @@ close.onclick = function() {
     // schedule.style.display = 'none'
     lich.style.transform = 'translateY(150%)'
     scroll.scrollTo(0, 1);
-    scroll_mobile.scrollTo(0, 1);
+    // scroll_mobile.scrollTo(0, 1);
     body.style.overflow = 'unset'
 }
 
