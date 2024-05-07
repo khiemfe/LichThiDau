@@ -555,6 +555,7 @@
   .text-description-club {
     width: 400px;
     height: 40px;
+    font-size: 15px;
   }
 
   .text-description h3 {
@@ -567,10 +568,6 @@
 
   .text-description.b {
     top: 52%;
-  }
-
-  .text-description-club-name {
-    font-size: 15px;
   }
 
   .text-description h3 {
