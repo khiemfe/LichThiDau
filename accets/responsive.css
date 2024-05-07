@@ -194,7 +194,6 @@
   .schedule-detail-body {
     padding: 0 5px;
   }
-
 }
 
 /* Mobile and Tablet */
@@ -545,25 +544,25 @@
 @media (max-width: 440px) {
   #slider .text-heading {
     top: 80px;
-    font-size: 22px;
+    font-size: 23px;
   }
 
   #slider .text-heading p {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .text-description-club {
     width: 400px;
-    height: 50px;
+    height: 45px;
   }
 
   .text-description.a {
-    top: 18%;
+    top: 21%;
   }
-  
+
   .text-description.b {
-    top: 52%;
+    top: 53%;
   }
 
   .text-description-club-name {
@@ -600,9 +599,9 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   #slider .text-heading {
-    font-size: 20px;
+    font-size: 21px;
     padding: 0 20px;
   }
 
@@ -619,16 +618,16 @@
   }
 
   .text-description.a {
-    top: 22%;
+    top: 25%;
   }
-  
+
   .text-description.b {
-    top: 54%;
+    top: 55%;
   }
 
   .text-description-club {
     width: 350px;
-    height: 35px;
+    height: 30px;
   }
 
   .text-description-club-name {
