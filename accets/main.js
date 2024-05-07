@@ -12,10 +12,14 @@ btn.onclick = function () {
 };
 
 const closeSchedule = () => {
-  scroll.scrollTo(0, 1);
+  //   scroll.scrollTo(0, 1);
   overlay.style.display = "none";
   lich.style.transform = "translateY(150%)";
   body.style.overflow = "unset";
+  scroll.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 };
 
 close.onclick = function () {
@@ -24,7 +28,7 @@ close.onclick = function () {
 
 document.onkeydown = function (e) {
   switch (e.code) {
-    case "Escape": //khi bấm phím esc thì:
+    case "Escape":
       closeSchedule();
       break;
   }
