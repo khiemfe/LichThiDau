@@ -557,8 +557,12 @@
     height: 40px;
   }
 
+  .text-description h3 {
+    font-size: 18px;
+  }
+
   .text-description.a {
-    top: 18%;
+    top: 19%;
   }
 
   .text-description.b {
