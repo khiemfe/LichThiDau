@@ -558,7 +558,7 @@
   }
 
   .text-description.a {
-    top: 20%;
+    top: 18%;
   }
 
   .text-description.b {
@@ -601,7 +601,7 @@
 
 @media (max-width: 390px) {
   #slider .text-heading {
-    font-size: 21px;
+    font-size: 20px;
     padding: 0 20px;
   }
 
