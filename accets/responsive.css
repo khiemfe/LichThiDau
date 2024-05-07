@@ -544,7 +544,7 @@
 @media (max-width: 440px) {
   #slider .text-heading {
     top: 80px;
-    font-size: 23px;
+    font-size: 22px;
   }
 
   #slider .text-heading p {
@@ -554,7 +554,7 @@
 
   .text-description-club {
     width: 400px;
-    height: 45px;
+    height: 42px;
   }
 
   .text-description.a {
