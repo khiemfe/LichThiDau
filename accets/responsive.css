@@ -606,6 +606,10 @@
     padding: 0 20px;
   }
 
+  .score {
+    width: 15%;
+  }
+
   #slider .text-heading p {
     font-size: 16px;
   }
