@@ -382,6 +382,10 @@ html {
   width: 45%;
 }
 
+.score {
+  width: 10%;
+}
+
 .arena {
   margin-left: 20px;
 }
