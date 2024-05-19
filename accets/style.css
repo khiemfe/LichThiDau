@@ -382,8 +382,12 @@ html {
   width: 45%;
 }
 
+.club.hai {
+  width: 50%;
+}
+
 .score {
-  width: 16%;
+  width: 15%;
 }
 
 .arena {
